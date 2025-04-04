@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -6,49 +5,39 @@ import TeamMember from '@/components/TeamMember';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, CheckCircle2, Globe, Users } from 'lucide-react';
-
 const About = () => {
-  const teamMembers = [
-    {
-      name: 'Rajiv Sharma',
-      position: 'Founder & CEO',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-      bio: 'With over 15 years of experience in digital marketing, Rajiv founded Evoblaze with a vision to bridge marketing gaps between South Asia and Southeast Asia.'
-    },
-    {
-      name: 'Ana Soares',
-      position: 'Marketing Director',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80',
-      bio: 'Born and raised in Timor Leste, Ana brings deep cultural insights and marketing expertise for Southeast Asian markets.'
-    },
-    {
-      name: 'Vikram Patel',
-      position: 'SEO Specialist',
-      image: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-      bio: 'Vikram has helped hundreds of businesses improve their search rankings through strategic SEO campaigns across multiple regions.'
-    },
-    {
-      name: 'Priya Desai',
-      position: 'Social Media Manager',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80',
-      bio: 'Priya specializes in creating engaging social media strategies that resonate with diverse audiences across different platforms and regions.'
-    },
-    {
-      name: 'José Guterres',
-      position: 'Web Development Lead',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-      bio: 'José brings technical expertise to our web development projects, creating responsive and user-friendly websites optimized for performance.'
-    },
-    {
-      name: 'Neha Kapoor',
-      position: 'Data Analytics Specialist',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-      bio: 'Neha transforms complex data into actionable insights, helping our clients make data-driven marketing decisions for maximum ROI.'
-    }
-  ];
-
-  return (
-    <div className="min-h-screen flex flex-col">
+  const teamMembers = [{
+    name: 'Rajiv Sharma',
+    position: 'Founder & CEO',
+    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
+    bio: 'With over 15 years of experience in digital marketing, Rajiv founded Evoblaze with a vision to bridge marketing gaps between South Asia and Southeast Asia.'
+  }, {
+    name: 'Ana Soares',
+    position: 'Marketing Director',
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80',
+    bio: 'Born and raised in Timor Leste, Ana brings deep cultural insights and marketing expertise for Southeast Asian markets.'
+  }, {
+    name: 'Vikram Patel',
+    position: 'SEO Specialist',
+    image: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
+    bio: 'Vikram has helped hundreds of businesses improve their search rankings through strategic SEO campaigns across multiple regions.'
+  }, {
+    name: 'Priya Desai',
+    position: 'Social Media Manager',
+    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80',
+    bio: 'Priya specializes in creating engaging social media strategies that resonate with diverse audiences across different platforms and regions.'
+  }, {
+    name: 'José Guterres',
+    position: 'Web Development Lead',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
+    bio: 'José brings technical expertise to our web development projects, creating responsive and user-friendly websites optimized for performance.'
+  }, {
+    name: 'Neha Kapoor',
+    position: 'Data Analytics Specialist',
+    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
+    bio: 'Neha transforms complex data into actionable insights, helping our clients make data-driven marketing decisions for maximum ROI.'
+  }];
+  return <div className="min-h-screen flex flex-col">
       <Navbar />
       
       {/* Hero Section */}
@@ -67,12 +56,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-12">
             <h2 className="text-3xl font-bold mb-4">Our Story</h2>
-            <p className="text-gray-600 mb-4">
-              Evoblaze was founded in 2018 with a unique vision: to create a digital marketing 
-              agency that truly understands the nuances of both Indian and Timor Leste markets. 
-              Our founder, Rajiv Sharma, saw an opportunity to bridge the marketing gap between 
-              these regions after working on several cross-border business initiatives.
-            </p>
+            <p className="text-gray-600 mb-4">Evoblaze was founded in 2018 with a unique vision: to create a digital marketing agency that truly understands the nuances of both Indian and Timor Leste markets. Our founder, Pradeep Daksh, saw an opportunity to bridge the marketing gap between these regions after working on several cross-border business initiatives.</p>
             <p className="text-gray-600 mb-4">
               What started as a small team working with local businesses has grown into a 
               full-service digital marketing agency with offices in Mumbai and Dili. Our 
@@ -87,11 +71,7 @@ const About = () => {
             </p>
           </div>
           <div className="lg:w-1/2">
-            <img 
-              src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1147&q=80" 
-              alt="Team Collaboration" 
-              className="rounded-lg shadow-lg w-full h-auto"
-            />
+            <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1147&q=80" alt="Team Collaboration" className="rounded-lg shadow-lg w-full h-auto" />
           </div>
         </div>
       </section>
@@ -182,15 +162,7 @@ const About = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {teamMembers.map((member, index) => (
-              <TeamMember 
-                key={index}
-                name={member.name}
-                position={member.position}
-                image={member.image}
-                bio={member.bio}
-              />
-            ))}
+            {teamMembers.map((member, index) => <TeamMember key={index} name={member.name} position={member.position} image={member.image} bio={member.bio} />)}
           </div>
         </div>
       </section>
@@ -208,11 +180,7 @@ const About = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img 
-                src="https://images.unsplash.com/photo-1566552881560-0be862a7c445?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80" 
-                alt="Mumbai Office" 
-                className="w-full h-48 object-cover"
-              />
+              <img src="https://images.unsplash.com/photo-1566552881560-0be862a7c445?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80" alt="Mumbai Office" className="w-full h-48 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Mumbai, India</h3>
                 <p className="text-gray-600 mb-4">
@@ -228,11 +196,7 @@ const About = () => {
             </div>
             
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img 
-                src="https://images.unsplash.com/photo-1518988936704-8b816bbb185e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1337&q=80" 
-                alt="Dili Office" 
-                className="w-full h-48 object-cover"
-              />
+              <img src="https://images.unsplash.com/photo-1518988936704-8b816bbb185e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1337&q=80" alt="Dili Office" className="w-full h-48 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Dili, Timor Leste</h3>
                 <p className="text-gray-600 mb-4">
@@ -267,8 +231,6 @@ const About = () => {
       </section>
       
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default About;
