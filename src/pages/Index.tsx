@@ -111,8 +111,7 @@ const Index = () => {
           <div className="md:w-1/2 md:pl-12">
             <h2 className="text-3xl font-bold mb-4">About Evoblaze</h2>
             <p className="text-gray-600 mb-6">
-              Founded with a vision to bridge digital marketing gaps between South Asia and Southeast Asia, 
-              Evoblaze brings together expertise from India and Timor Leste to offer unique cross-market insights.
+              Founded with a vision to bridge digital marketing gaps, Evoblaze brings together expertise from its Noida office in India and is now expanding its operations to Dili, Timor Leste, offering unique cross-market insights across South Asia and Southeast Asia.
             </p>
             <p className="text-gray-600 mb-6">
               Our multicultural team understands the nuances of both markets, allowing us to create 
