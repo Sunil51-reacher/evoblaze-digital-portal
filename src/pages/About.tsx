@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -6,38 +5,40 @@ import TeamMember from '@/components/TeamMember';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, CheckCircle2, Globe, Users } from 'lucide-react';
+
 const About = () => {
   const teamMembers = [{
-    name: 'Rajiv Sharma',
-    position: 'Founder & CEO',
+    name: 'PRADEEP DAKSH',
+    position: 'Director',
+    image: '/lovable-uploads/949b3fa4-18b8-469b-9bc3-5bb5a84a5cad.png',
+    bio: 'With over 15 years of experience in digital marketing, Pradeep founded Evoblaze with a vision to bridge marketing gaps between South Asia and Southeast Asia.'
+  }, {
+    name: 'KAVENDRA BHANDARI',
+    position: 'Director',
     image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-    bio: 'With over 15 years of experience in digital marketing, Rajiv founded Evoblaze with a vision to bridge marketing gaps between South Asia and Southeast Asia.'
+    bio: 'Kavendra brings strategic vision and business acumen to drive Evoblaze\'s growth and expansion into new markets.'
   }, {
-    name: 'Ana Soares',
-    position: 'Marketing Director',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80',
-    bio: 'Born and raised in Timor Leste, Ana brings deep cultural insights and marketing expertise for Southeast Asian markets.'
-  }, {
-    name: 'Vikram Patel',
-    position: 'SEO Specialist',
+    name: 'MANAV SHARMA',
+    position: 'Creative Director',
     image: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-    bio: 'Vikram has helped hundreds of businesses improve their search rankings through strategic SEO campaigns across multiple regions.'
+    bio: 'Manav leads our creative team with innovative design thinking and cutting-edge visual strategies for digital platforms.'
   }, {
-    name: 'Priya Desai',
-    position: 'Social Media Manager',
+    name: 'SWATI',
+    position: 'HR',
     image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80',
-    bio: 'Priya specializes in creating engaging social media strategies that resonate with diverse audiences across different platforms and regions.'
+    bio: 'Swati ensures our workplace culture thrives by managing recruitment, employee development, and maintaining a positive work environment.'
   }, {
-    name: 'José Guterres',
-    position: 'Web Development Lead',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-    bio: 'José brings technical expertise to our web development projects, creating responsive and user-friendly websites optimized for performance.'
-  }, {
-    name: 'Neha Kapoor',
-    position: 'Data Analytics Specialist',
+    name: 'SAKSHI',
+    position: 'HR',
     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-    bio: 'Neha transforms complex data into actionable insights, helping our clients make data-driven marketing decisions for maximum ROI.'
+    bio: 'Sakshi specializes in talent acquisition and employee relations, helping Evoblaze build a diverse and skilled team across locations.'
+  }, {
+    name: 'RINKU DAKSH',
+    position: 'Sr. Graphic Designer',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
+    bio: 'Rinku creates stunning visual content that elevates our clients\' brands through innovative design solutions across all platforms.'
   }];
+  
   return <div className="min-h-screen flex flex-col">
       <Navbar />
       
