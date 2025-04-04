@@ -1,22 +1,16 @@
-
 import React from 'react';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
-  return (
-    <footer className="bg-evoblaze-dark text-white">
+  return <footer className="bg-evoblaze-dark text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="mb-4">
               <span className="text-2xl font-bold text-white">Evo<span className="text-evoblaze-orange">blaze</span></span>
             </div>
-            <p className="text-gray-300 mb-4">
-              Igniting digital success across borders. Strategic marketing solutions for businesses in India and Timor Leste.
-            </p>
+            <p className="text-gray-300 mb-4">Igniting digital success across borders. Strategic marketing solutions for businesses Timor Leste.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white">
                 <span className="sr-only">Facebook</span>
@@ -71,15 +65,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-6 w-6 text-evoblaze-orange mr-3 flex-shrink-0" />
-                <span className="text-gray-300">Mumbai, India & Dili, Timor Leste</span>
+                <span className="text-gray-300">Dili, Timor Leste &amp; Noida, India  </span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-6 w-6 text-evoblaze-orange mr-3 flex-shrink-0" />
-                <span className="text-gray-300">+91 98765 43210</span>
+                <span className="text-gray-300">+670-77870992</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-6 w-6 text-evoblaze-orange mr-3 flex-shrink-0" />
-                <span className="text-gray-300">info@evoblaze.com</span>
+                <span className="text-gray-300">admin@evoblaze.net</span>
               </li>
             </ul>
           </div>
@@ -98,8 +92,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
