@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -180,17 +181,17 @@ const About = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1566552881560-0be862a7c445?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80" alt="Mumbai Office" className="w-full h-48 object-cover" />
+              <img src="https://images.unsplash.com/photo-1566552881560-0be862a7c445?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80" alt="India Office" className="w-full h-48 object-cover" />
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Mumbai, India</h3>
+                <h3 className="text-xl font-semibold mb-2">India</h3>
                 <p className="text-gray-600 mb-4">
-                  Our headquarters is located in the heart of Mumbai's business district, 
+                  Our headquarters is located in the heart of India's business district, 
                   serving clients across India and coordinating our South Asian operations.
                 </p>
                 <p className="text-gray-600">
-                  <strong>Address:</strong> 123 Business Park, Andheri East, Mumbai 400069, India<br />
+                  <strong>Address:</strong> 123 Business Park, Andheri East, Noida, India<br />
                   <strong>Phone:</strong> +91 98765 43210<br />
-                  <strong>Email:</strong> mumbai@evoblaze.com
+                  <strong>Email:</strong> india@evoblaze.com
                 </p>
               </div>
             </div>
