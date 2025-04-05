@@ -190,9 +190,9 @@ const About = () => {
                   serving clients across India and coordinating our South Asian operations.
                 </p>
                 <p className="text-gray-600">
-                  <strong>Address:</strong> 123 Business Park, Andheri East, Noida, India<br />
-                  <strong>Phone:</strong> +91 98765 43210<br />
-                  <strong>Email:</strong> india@evoblaze.com
+                  <strong>Address:</strong> 56/21, Ground Floor, C Block, Phase 2, Industrial Area, Sector 62, Noida, Uttar Pradesh 201301<br />
+                  <strong>Phone:</strong> +919058346379<br />
+                  <strong>Email:</strong> creative@evoblazebyhands.com
                 </p>
               </div>
             </div>
