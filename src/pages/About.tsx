@@ -5,7 +5,6 @@ import TeamMember from '@/components/TeamMember';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, CheckCircle2, Globe, Users } from 'lucide-react';
-
 const About = () => {
   const teamMembers = [{
     name: 'PRADEEP DAKSH',
@@ -38,7 +37,6 @@ const About = () => {
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
     bio: 'Rinku creates stunning visual content that elevates our clients\' brands through innovative design solutions across all platforms.'
   }];
-  
   return <div className="min-h-screen flex flex-col">
       <Navbar />
       
@@ -59,13 +57,7 @@ const About = () => {
           <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-12">
             <h2 className="text-3xl font-bold mb-4">Our Story</h2>
             <p className="text-gray-600 mb-4">Evoblaze was founded in 2018 with a unique vision: to create a digital marketing agency that truly understands the nuances of both Indian and Timor Leste markets. Our founder, Pradeep Daksh, saw an opportunity to bridge the marketing gap between these regions after working on several cross-border business initiatives.</p>
-            <p className="text-gray-600 mb-4">
-              What started as a small team working with local businesses has grown into a 
-              full-service digital marketing agency with offices in Mumbai and Dili. Our 
-              multicultural team brings together diverse perspectives, allowing us to create 
-              marketing strategies that resonate with different audiences while achieving tangible 
-              business results.
-            </p>
+            <p className="text-gray-600 mb-4">What started as a small team working with local businesses has grown into a full-service digital marketing agency with offices in India and Dili. Our multicultural team brings together diverse perspectives, allowing us to create marketing strategies that resonate with different audiences while achieving tangible business results.</p>
             <p className="text-gray-600">
               Today, we're proud to have helped hundreds of businesses expand their digital 
               footprint across borders, leveraging our unique cross-market expertise to 
@@ -190,9 +182,9 @@ const About = () => {
                   serving clients across India and coordinating our South Asian operations.
                 </p>
                 <p className="text-gray-600">
-                  <strong>Address:</strong> 56/21, Ground Floor, C Block, Phase 2, Industrial Area, Sector 62, Noida, Uttar Pradesh 201301<br />
-                  <strong>Phone:</strong> +919058346379<br />
-                  <strong>Email:</strong> creative@evoblazebyhands.com
+                  <strong>Address:</strong> 123 Business Park, Andheri East, Noida, India<br />
+                  <strong>Phone:</strong> +91 98765 43210<br />
+                  <strong>Email:</strong> india@evoblaze.com
                 </p>
               </div>
             </div>
@@ -206,9 +198,9 @@ const About = () => {
                   marketing solutions tailored for emerging markets in the region.
                 </p>
                 <p className="text-gray-600">
-                  <strong>Address:</strong> Green Damond Villa, Dili, Timor Leste<br />
-                  <strong>Phone:</strong> +67077870992<br />
-                  <strong>Email:</strong> admin@evoblaze.net
+                  <strong>Address:</strong> 45 Palm Street, Farol District, Dili, Timor Leste<br />
+                  <strong>Phone:</strong> +670 7777 8888<br />
+                  <strong>Email:</strong> dili@evoblaze.com
                 </p>
               </div>
             </div>
