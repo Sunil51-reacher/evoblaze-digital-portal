@@ -206,9 +206,9 @@ const About = () => {
                   marketing solutions tailored for emerging markets in the region.
                 </p>
                 <p className="text-gray-600">
-                  <strong>Address:</strong> 45 Palm Street, Farol District, Dili, Timor Leste<br />
-                  <strong>Phone:</strong> +670 7777 8888<br />
-                  <strong>Email:</strong> dili@evoblaze.com
+                  <strong>Address:</strong> Green Damond Villa, Dili, Timor Leste<br />
+                  <strong>Phone:</strong> +67077870992<br />
+                  <strong>Email:</strong> admin@evoblaze.net
                 </p>
               </div>
             </div>
