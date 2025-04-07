@@ -13,7 +13,7 @@ const TeamSection = () => {
   const teamMembers: TeamMemberData[] = [{
     name: 'PRADEEP DAKSH',
     position: 'Director',
-    image: '/lovable-uploads/949b3fa4-18b8-469b-9bc3-5bb5a84a5cad.png',
+    image: '/lovable-uploads/2a724c05-68ce-4af6-b6ce-6d90253ae53f.png',
     bio: 'With over 15 years of experience in digital marketing, Pradeep founded Evoblaze with a vision to bridge marketing gaps between South Asia and Southeast Asia.'
   }, {
     name: 'KAVENDRA BHANDARI',
